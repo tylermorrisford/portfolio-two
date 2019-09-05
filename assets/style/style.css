@@ -10,5 +10,11 @@
 
 .top {
     background-image: url("../images/mountains.jpg");
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
+    text-align: center;
+    justify-content: center;
+    
 }
