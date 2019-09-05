@@ -1,7 +1,14 @@
 .brand-logo {
     font-family: 'Monoton', cursive;
+    color: black;
 }
 
-a {
+#black {
     font-family: 'Roboto', sans-serif;
+    color: black;
+}
+
+.top {
+    background-image: url("../images/mountains.jpg");
+    background-size: cover;
 }

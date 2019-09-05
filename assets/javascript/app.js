@@ -1,6 +1,27 @@
    $(document).ready(function(){
     $('.sidenav').sidenav();
-  });
+        $("#about").click(function (){
+            $('html, body').animate({
+                scrollTop: $("#aboutMe").offset().top
+            }, 1000);
+        });
+        $("#portfolio").click(function (){
+            $('html, body').animate({
+                scrollTop: $("#myPortfolio").offset().top
+            }, 1000);
+        });
+        $("#cv").click(function (){
+            $('html, body').animate({
+                scrollTop: $("#myCv").offset().top
+            }, 1000);
+        });
+        $("#contact").click(function (){
+            $('html, body').animate({
+                scrollTop: $("#contactMe").offset().top
+            }, 1000);
+        });
+    });
+  
 
 
 //   smooth scroll to div id jquery
