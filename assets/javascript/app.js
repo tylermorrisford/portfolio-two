@@ -1,42 +1,18 @@
+   
    $(document).ready(function(){
-    $('.sidenav').sidenav();
-        $("#about").click(function (){
-            $('html, body').animate({
-                scrollTop: $("#aboutMe").offset().top
-            }, 1000);
+    M.AutoInit();
+    $("a[href^='#']").click(function(e) {
+           e.preventDefault();
+           
+           var position = $($(this).attr("href")).offset().top;
+           
+           $("body, html").animate({
+               scrollTop: position
+            }, 1000 );
         });
-        $("#portfolio").click(function (){
-            $('html, body').animate({
-                scrollTop: $("#myPortfolio").offset().top
-            }, 1000);
-        });
-        $("#cv").click(function (){
-            $('html, body').animate({
-                scrollTop: $("#myCv").offset().top
-            }, 1000);
-        });
-        $("#contact").click(function (){
-            $('html, body').animate({
-                scrollTop: $("#contactMe").offset().top
-            }, 1000);
-        });
+        $('.sidenav').sidenav();
     });
-  
 
-
-//   smooth scroll to div id jquery
-//   $('a[href^="#"]').on('click', function(event) {
-
-//     var target = $(this.getAttribute('href'));
-
-//     if( target.length ) {
-//         event.preventDefault();
-//         $('html, body').stop().animate({
-//             scrollTop: target.offset().top
-//         }, 1000);
-//     }
-
-// });
   
   // Your web app's Firebase configuration
   var firebaseConfig = {
