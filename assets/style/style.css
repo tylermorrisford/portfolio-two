@@ -1,3 +1,12 @@
+body, html {
+    height: 100%;
+    margin: 0;
+  }
+
+h1, h2, h3, h4, p {
+    font-family: 'Roboto', sans-serif;
+}  
+
 .brand-logo {
     font-family: 'Monoton', cursive;
     color: black;
@@ -10,11 +19,27 @@
 
 .top {
     background-image: url("../images/mountains.jpg");
+    position: absolute;
+    top: 0;
+    left: 0;
     height: 100%; 
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
-    justify-content: center;
-    
 }
+
+/* .about {
+
+}
+
+.portfolio {
+
+}
+
+.cv {
+
+}
+
+.contactMe {
+    
+} */
