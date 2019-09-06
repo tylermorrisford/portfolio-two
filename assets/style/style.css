@@ -9,7 +9,6 @@ a, h1, h2, h3, h4, p {
 
 .brand-logo {
     font-family: 'Monoton', cursive;
-    color: black;
 }
 
 li {
@@ -66,7 +65,7 @@ li {
     width: 100%;
 }
 
-#contactMe {
+.contactMe {
     background-color: whitesmoke;
     text-align: center;
     padding: 30px 0;
