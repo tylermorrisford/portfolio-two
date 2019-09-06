@@ -23,13 +23,13 @@
         <div class="navbar-fixed">
         <nav class="transparent z-depth-0">
                 <div class="nav-wrapper"> 
-                  <a href="#!" class="brand-logo center">Tyler Ford</a>
+                  <a href="#top" class="brand-logo center">Tyler Ford</a>
                   <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
                   <ul class="right hide-on-med-and-down">
-                    <li><a href="#about" id="black">About</a></li>
-                    <li><a href="#portfolio" id="black">Portfolio</a></li>
-                    <li><a href="#cv" id="black">CV</a></li>
-                    <li><a href="#contact" id="black">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#cv">CV</a></li>
+                    <li><a href="#contact">Contact</a></li>
                   </ul>
                 </div>
               </nav>
@@ -42,25 +42,37 @@
                     <li><a href="#contact">Contact</a></li>
               </ul>
     
-<div class="top" style="background-color: black; width: 100%; height: 800px">
+<div id="top" style="background-color: black; width: 100%; height: 100%">
 
 
 </div>
-<div id="about" style="background-color: white; width: 100%; height: 500px">
-
-    </div>
-    <div id="portfolio" style="background-color: black; width: 100%; height: 700px">
+<div class="spacer" style="background-color: black; width: 100%; height: 92%"></div>
+<div id="about" style="width: 100%; height: 700px">
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m4">
+                <img class="tyler" src="assets/images/tyler-small.jpg">
+            </div>
+            <div class="col s12 m8">
+                <p class="bio">Hi, I'm Tyler, a Full Stack Web Developer with extensive experience in video production, copywriting, and digital marketing, educated at the University of Utah. Skills in HTML, CSS and JavaScript and strengths in meeting deadlines, creativity and teamwork. Oversaw branded redesign of the company website, and created a branded Capital Campaign website and video that has to date raised over 4 million dollars. Excited to approach programming challenges from different angles and collaborate with others to create useful web applications. Positioned well to provide unique perspectives on how end-users interact with websites, software platforms, and emails by leveraging my background in digital marketing.</p>
+            </div>
 
         </div>
-        <div id="cv" style="background-color: white; width: 100%; height: 300px">
-
+    </div>
+    
+    </div>
+    <div id="portfolio" style="background-color: grey; width: 100%; height: 700px">
+        this is the portfolio section
+        </div>
+        <div id="cv">
+            this is the cv section
             </div>
             <div id="contact" class="contactMe">
                 <div class=container>    
                 <div class="row">
                     <h3>Contact Me</h3>
+                    <div class="row">
                             <form class="col s12">
-                              <div class="row">
                                   <div class="input-field col s6">
                                         <i class="material-icons prefix">account_circle</i>
                                   <input id="first_name" type="text" class="validate">
@@ -72,23 +84,37 @@
                                 </div>
                               </div>
                               <div class="row">
-                                <div class="input-field col s12">
+                                <div class="input-field col s6">
                                  <i class="material-icons prefix">mode_edit</i>
                                   <input id="email" type="email" class="validate">
                                   <label for="email">Email</label>
                                 </div>
                               </div>
                               <div class="row">
-                                    <div class="input-field col s6">
+                                    <div class="input-field col s12">
                                       <i class="material-icons prefix">mode_edit</i>
                                       <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
                                     </div>
-                                  </div>
-                                  <button type="submit">Send</button>
+                                </div>
+                                <button class="btn waves-effect cyan darken-3" type="submit" name="action">Send
+                                        <i class="material-icons right">send</i>
+                                      </button>
                             </form>
                           </div>
                         </div>
                 </div>
+                <footer class="grey page-footer">
+                    <div class="container">
+                          
+                            <div class="white-text footer-copyright">
+                              <p>© 2019 Tyler Ford</p>
+                              <a class="white-text text-lighten-4 right" href="#!">More Links</a>
+                              <a class="white-text text-lighten-4 right" href="#!">More Links</a>
+                              <a class="white-text text-lighten-4 right" href="#!">More Links</a>
+                              </div>
+                              
+                            </div>
+                            </footer>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

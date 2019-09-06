@@ -3,7 +3,7 @@ body, html {
     margin: 0;
   }
 
-h1, h2, h3, h4, p {
+a, h1, h2, h3, h4, p {
     font-family: 'Roboto', sans-serif;
 }  
 
@@ -12,12 +12,11 @@ h1, h2, h3, h4, p {
     color: black;
 }
 
-#black {
+li {
     font-family: 'Roboto', sans-serif;
-    color: black;
 }
 
-.top {
+#top {
     background-image: url("../images/mountains.jpg");
     position: absolute;
     top: 0;
@@ -28,18 +27,48 @@ h1, h2, h3, h4, p {
     background-size: cover;
 }
 
-/* .about {
-
+#about {
+    padding-top: 18%;
+    background-color: #3B84A1;
+    height: 600px;
+    width: 100%;
 }
 
-.portfolio {
-
+.tyler {
+    border-radius: 100%;
+    border: 2px solid rgba(110,136,161,1);
+    /* margin: 5px 12px 12px 0; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    animation-name: colorborder;
+    animation-duration: 2s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
 }
 
-.cv {
+@keyframes colorborder {
+    from {border-color: rgba(221,221,221,1);}
+    to {border-color: rgba(110,136,161,1);}
+  }
 
+
+.bio {
+    color: white;
+    line-height: 1.7;
 }
 
-.contactMe {
-    
-} */
+#portfolio {
+    background-image: linear-gradient( 360deg,  rgba(221,221,221,1) 5.5%, rgba(110,136,161,1) 90.2% );
+}
+
+#cv {
+    background-color: #3B84A1;
+    height: 400px;
+    width: 100%;
+}
+
+#contactMe {
+    background-color: whitesmoke;
+    text-align: center;
+    padding: 30px 0;
+    border-top: 2px solid gray;
+}
