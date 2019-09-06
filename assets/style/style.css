@@ -58,6 +58,8 @@ li {
 
 #portfolio {
     background-image: linear-gradient( 0deg,  rgba(221,221,221,1) 5.5%, rgba(110,136,161,1) 90.2% );
+    width: 100%;
+    height: 700px;
 }
 
 #cv {
