@@ -40,7 +40,7 @@
     } else {
         var name = $("#name").val().trim();
         var email = $("#email").val().trim();
-        var message = $("#icon_prefix2").val().trim();
+        var message = $("#message").val().trim();
 
         
         database.ref().push({
