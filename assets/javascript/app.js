@@ -32,15 +32,15 @@
   $("#submit").on("click", function (event) {
     event.preventDefault();
     // if user submits form with a blank input
-    if ( $("#name").val() === "" || $("#email").val() === "" || $("#message").val() === "" ) {
+    if ( $("#name").val() === "" || $("#email").val() === "" || $("#icon_prefix2").val() === "" ) {
         alert("Please send me a message using alphanumerics instead of E.S.P.");
         $("#name").val("");
         $("#email").val("");
-        $("#message").val("");
+        $("#icon_prefix2").val("");
     } else {
         var name = $("#name").val().trim();
         var email = $("#email").val().trim();
-        var message = $("#message").val().trim();
+        var message = $("#icon_prefix2").val().trim();
 
         
         database.ref().push({
@@ -50,4 +50,8 @@
             dateAdded: firebase.database.ServerValue.TIMESTAMP
         })
     }
+        $("#name").val("");
+        $("#email").val("");
+        $("#icon_prefix2").val("");
+
     });
