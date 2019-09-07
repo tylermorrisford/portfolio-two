@@ -9,6 +9,7 @@ a, h2, h3, h4, p {
 
 .brand-logo {
     font-family: 'Monoton', cursive;
+    margin-left: 20px;
 }
 
 .callout {
@@ -25,10 +26,6 @@ a, h2, h3, h4, p {
 
 li {
     font-family: 'Roboto', sans-serif;
-}
-
-#custnav {
-    background-color: rgba(40,72,84,1);
 }
 
 #top {
@@ -53,7 +50,7 @@ li {
 .tyler {
     border-radius: 100%;
     border: 2px solid rgba(110,136,161,1);
-    /* margin: 5px 12px 12px 0; */
+    margin: 5px 12px 12px 0;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     animation-name: colorborder;
     animation-duration: 2s;
@@ -88,14 +85,14 @@ li {
 
 #cv {
     background-color: #284854;
-    height: 600px;
+    height: 650px;
     width: 100%;
     color: whitesmoke;
     padding-top: 12%;
 }
 
 .cv {
-    padding-top: 500px;
+    padding: 50px 0 100px 0;
 }
 
 .contactMe {
