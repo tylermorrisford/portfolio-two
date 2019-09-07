@@ -3,12 +3,24 @@ body, html {
     margin: 0;
   }
 
-a, h1, h2, h3, h4, p {
+a, h2, h3, h4, p {
     font-family: 'Roboto', sans-serif;
 }  
 
 .brand-logo {
     font-family: 'Monoton', cursive;
+}
+
+.callout {
+    font-family: 'Monoton', cursive;
+    margin: 17% auto 0 auto;
+    text-align: center;
+    color: white;
+}
+
+.smallout {
+    font-family: 'Roboto', sans-serif;
+    color: white;
 }
 
 li {
