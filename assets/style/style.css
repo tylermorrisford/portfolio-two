@@ -15,6 +15,10 @@ li {
     font-family: 'Roboto', sans-serif;
 }
 
+#custnav {
+    background-color: rgba(40,72,84,1);
+}
+
 #top {
     background-image: url("../images/mountains.jpg");
     position: absolute;
@@ -65,19 +69,22 @@ li {
 }
 
 #port-text {
-    padding-bottom: 20px;
+    padding: 50px 0 40px 0;
     font-family: 'Roboto', sans-serif;
-    color: white;
-
+    color: white;  
 }
 
 #cv {
     background-color: #284854;
-    height: 400px;
+    height: 600px;
     width: 100%;
-    padding-top: 8%;
+    color: whitesmoke;
+    padding-top: 12%;
 }
 
+.cv {
+    padding-top: 500px;
+}
 
 .contactMe {
     background-color: whitesmoke;
