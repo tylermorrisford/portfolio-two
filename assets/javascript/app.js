@@ -13,7 +13,25 @@
         $('.sidenav').sidenav();
     });
 
-  
+//   hide nav on scroll down show on scroll up
+
+var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    $("#custnav").style.top = "0";
+  } else {
+    $("#custnav").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
+
+
+
+
+
+
   // Your web app's Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyAgnMMG6ZDe1v51JvNintTXyBMaEfKmxK8",
