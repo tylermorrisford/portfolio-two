@@ -53,5 +53,10 @@
         $("#name").val("");
         $("#email").val("");
         $("#icon_prefix2").val("");
+        $("#formTitle").html("<h4>Thanks, I'll be in touch!</h4>").addClass("thanks");
+
+        setTimeout (function(){ 
+            $("#formTitle").html("<h4>Contact Me</h4>").removeClass("thanks"); 
+        }, 5000);
 
     });
