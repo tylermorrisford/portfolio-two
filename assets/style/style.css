@@ -47,6 +47,10 @@ li {
     width: 100%;
 }
 
+.align {
+    text-align: center;
+}
+
 .tyler {
     border-radius: 100%;
     border: 2px solid rgba(110,136,161,1);
@@ -79,8 +83,13 @@ li {
 
 #port-text {
     padding: 50px 0 40px 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Monoton', cursive;
     color: white;  
+}
+
+#monoton {
+    font-family: 'Monoton', cursive;
+    color: black;
 }
 
 #cv {
