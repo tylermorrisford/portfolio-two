@@ -10,26 +10,26 @@
                scrollTop: position
             }, 1000 );
         });
+        
+        $('.carousel').carousel(
+          {
+            dist: 0,
+            padding: 0,
+            fullWidth: true,
+            indicators: true,
+            duration: 100,
+          }
+          );
+
         $('.sidenav').sidenav();
+  
     });
 
-//   hide nav on scroll down show on scroll up
-
-var prevScrollpos = window.pageYOffset;
-window.onscroll = function() {
-var currentScrollPos = window.pageYOffset;
-  if (prevScrollpos > currentScrollPos) {
-    $("#custnav").style.top = "0";
-  } else {
-    $("#custnav").style.top = "-50px";
-  }
-  prevScrollpos = currentScrollPos;
-}
-
-
-
-
-
+    autoplay();   
+    function autoplay() {
+      $('.carousel.carousel-slider').carousel('next');
+      setTimeout(autoplay, 5500);
+    }
 
 
   // Your web app's Firebase configuration
