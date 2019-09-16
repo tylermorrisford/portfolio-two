@@ -123,3 +123,44 @@ li {
 /* footer {
     margin-bottom: 0;
 } */
+
+/* #backToTop */
+
+#backToTop {
+    display: inline-block;
+    background-color: grey;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    border-radius: 4px;
+    margin: 30px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    transition: background-color .3s;
+    z-index: 1000;
+    opacity: 0;
+    visibility: hidden;
+  }
+  #backToTop:hover {
+    cursor: pointer;
+    background-color: #333;
+  }
+  #backToTop:active {
+    background-color: #555;
+  }
+
+  #backToTop::after {
+    content: "\f077";
+    font-family: FontAwesome;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 2em;
+    line-height: 50px;
+    color: #fff;
+  }
+
+  #backToTop.show {
+    opacity: 1;
+    visibility: visible;
+  }
