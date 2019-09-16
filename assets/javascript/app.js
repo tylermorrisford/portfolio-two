@@ -21,9 +21,10 @@
             duration: 100,
           }
           );
+          $('.carousel-slider').slider({full_width: true});
           setInterval(function() {
             $('.carousel').carousel('next');
-          }, 1000);
+          }, 4000);
         
   
     });
