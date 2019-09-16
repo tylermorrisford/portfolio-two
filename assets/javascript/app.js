@@ -1,16 +1,17 @@
    
    $(document).ready(function(){
-    M.AutoInit();
-    $("a[href^='#']").click(function(e) {
-           e.preventDefault();
-           
-           var position = $($(this).attr("href")).offset().top;
-           
-           $("body, html").animate({
-               scrollTop: position
-            }, 1000 );
-        });
-        
+     M.AutoInit();
+     $("a[href^='#']").click(function(e) {
+       e.preventDefault();
+       
+       var position = $($(this).attr("href")).offset().top;
+       
+       $("body, html").animate({
+         scrollTop: position
+        }, 1000 );
+      });
+      
+      $('.sidenav').sidenav();
         $('.carousel').carousel(
           {
             dist: 0,
@@ -20,17 +21,15 @@
             duration: 100,
           }
           );
-
-        $('.sidenav').sidenav();
+          setInterval(function() {
+            $('.carousel').carousel('next');
+          }, 1000);
+        
   
     });
 
-    autoplay();   
-    function autoplay() {
-      $('.carousel.carousel-slider').carousel('next');
-      setTimeout(autoplay, 5500);
-    }
-
+  
+  
 
   // Your web app's Firebase configuration
   var firebaseConfig = {

@@ -84,7 +84,8 @@ li {
 #port-text {
     padding: 30px 0 30px 0;
     font-family: 'Monoton', cursive;
-    color: white;  
+    color: white;
+    text-align: center;  
 }
 
 #monoton {
