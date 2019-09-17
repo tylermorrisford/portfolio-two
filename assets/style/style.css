@@ -54,6 +54,19 @@ li {
         background: linear-gradient(162deg, rgba(2,0,36,1) 0%, rgba(40,72,84,1) 0%, rgba(59,132,161,1) 100%);
         height: 100vh;
     }
+
+    .tyler {
+        padding: 0 auto;
+        border-radius: 100%;
+        border: 2px solid rgba(110,136,161,1);
+        margin: 5px 12px 12px 0;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        animation-name: colorborder;
+        animation-duration: 2s;
+        animation-direction: alternate;
+        animation-iteration-count: infinite;
+    }
+
 }
 
 .align {
@@ -82,11 +95,11 @@ li {
     line-height: 1.7;
 }
 
+
 #portfolio {
     background-image: linear-gradient( 0deg,  rgba(221,221,221,1) 5.5%, rgba(110,136,161,1) 90.2% );
-    width: 100%;
     height: 100%;
-    padding: 150px auto;
+    padding-top: 4%;
     text-align: center;
 }
 
@@ -97,6 +110,16 @@ li {
     text-align: center;  
 }
 
+@media screen and (max-width:640px) {
+    #portfolio {
+        background-image: linear-gradient( 0deg,  rgba(221,221,221,1) 5.5%, rgba(110,136,161,1) 90.2% );
+        height: 100vh;
+        padding-top: 4%;
+        text-align: center;
+    }
+}    
+
+
 #monoton {
     font-family: 'Monoton', cursive;
     color: black;
@@ -105,7 +128,6 @@ li {
 #cv {
     background-color: #284854;
     height: 100%;
-    width: 100%;
     color: whitesmoke;
     padding-top: 12%;
 }
@@ -113,6 +135,17 @@ li {
 .cv {
     padding: 50px 0 100px 0;
 }
+
+@media screen and (max-width:640px) {
+    #cv {
+        background-color: #284854;
+        height: 100vh;
+        color: whitesmoke;
+        padding-top: 4%;
+
+    }
+}
+
 
 .contactMe {
     background-color: whitesmoke;
