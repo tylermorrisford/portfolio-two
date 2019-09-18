@@ -18,13 +18,13 @@
             padding: 0,
             fullWidth: true,
             indicators: true,
-            duration: 100,
+            duration: 200,
           }
           );
           $('.carousel-slider').slider({full_width: true});
           setInterval(function() {
             $('.carousel').carousel('next');
-          }, 4000);
+          }, 5500);
 
           var btn = $('#backToTop');
 
