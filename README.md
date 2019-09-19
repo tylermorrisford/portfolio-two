@@ -10,6 +10,3 @@ The site uses Materialize components for mobile responsive navigation, the carou
 * [Materialize](https://materializecss.com/) - CSS framework
 * [jQuery](https://jquery.com/) - DOM manipulation and events
 * [Firebase](https://firebase.google.com/) - database logic
-
-# User Feedback
-Wife likes it, thinks I need a new headshot
