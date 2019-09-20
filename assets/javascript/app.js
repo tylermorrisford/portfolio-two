@@ -89,7 +89,7 @@
         $("#formTitle").html("<h4>Thanks, I'll be in touch!</h4>").addClass("thanks");
         // feddback for the user on submitting the form
         setTimeout (function(){ 
-            $("#formTitle").html("<h4>Contact Me</h4>"); 
+            $("#formTitle").html("<h4>Contact Me</h4>").addClass("monoton"); 
         }, 5000);
 
     });
