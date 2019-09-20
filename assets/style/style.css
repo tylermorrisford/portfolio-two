@@ -177,6 +177,10 @@ li {
     font-family: 'Monoton', cursive;
 }
 
+.footlinks {
+    float: right;
+    margin: 0 15px;
+}
 
 .carousel .carousel-item {
     visibility: visible;
