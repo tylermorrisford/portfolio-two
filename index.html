@@ -1,189 +1,207 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Monoton|Roboto&display=swap" rel="stylesheet">
-    <!-- reset -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css" integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
-    <!-- Firebase -->
-    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
-    <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-database.js"></script>
-    <!-- jquery -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <!-- materialize -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- Fa link for back-to-top -->
-    <script src="https://kit.fontawesome.com/ca7032a827.js"></script>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-    <!-- css -->
-    <link rel="stylesheet" href="assets/style/style.css">
-    <title>Tyler Ford</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Monoton|Roboto&display=swap" rel="stylesheet">
+  <!-- reset -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.css"
+    integrity="sha256-7VVaJ5GDwFQiLIc+eNksQLUSSY5JNZtqv9o2BI8UGYg=" crossorigin="anonymous" />
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/6.5.0/firebase-database.js"></script>
+  <!-- jquery -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <!-- materialize -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+  <!-- Fa link for back-to-top -->
+  <script src="https://kit.fontawesome.com/ca7032a827.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!-- css -->
+  <link rel="stylesheet" href="assets/style/style.css">
+  <title>Tyler Ford</title>
 </head>
-<body>
-        <div class="navbar-fixed">
-        <nav class="transparent z-depth-0">
-                <div class="nav-wrapper"> 
-                  <a href="#top" class="brand-logo"></a>
-                  <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
-                  <ul class="right hide-on-med-and-down">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#cv">CV</a></li>
-                    <li><a href="#contact">Contact</a></li>
-                  </ul>
-                </div>
-              </nav>
-        </div>
-            
-              <ul class="sidenav" id="mobile-demo">
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#portfolio">Portfolio</a></li>
-                    <li><a href="#cv">CV</a></li>
-                    <li><a href="#contact">Contact</a></li>
-              </ul>
-    
-<div id="top" style="background-color: black; width: 100%; height: 100%">
-<div class="callout">
-<h1>Tyler Ford</h1>
-<span class="smallout">web developer</span>
-</div>
-</div>
-<div class="spacer" style="background-color: black; width: 100%; height: 91%"></div>
-<div id="about">
-    <div class="container">
-        <div class="row">
-           <h4 id="port-text" class="align">hi.</h4>
-            <div class="col s12 m5 align">
-                <img class="tyler" src="assets/images/tyler-small.jpg">
-            </div>
-            <div class="col s12 m7">
-                <p class="bio">I'm Tyler, a Full Stack Web Developer with extensive experience in video production, copywriting, and digital marketing, educated at the University of Utah. Skills in HTML, CSS and JavaScript and strengths in meeting deadlines, creativity and teamwork. Oversaw branded redesign of the company website, and created a branded Capital Campaign website and video that has to date raised over 4 million dollars. Excited to approach programming challenges from different angles and collaborate with others to create useful web applications. Positioned well to provide unique perspectives on how end-users interact with websites, software platforms, and emails by leveraging my background in digital marketing.</p>
-            </div>
 
-        </div>
-    </div>
-    
-    </div>
-    <div id="portfolio">
-        <div class="container">
-            <h4 id="port-text">projects</h4>
-            <div class="row">
-                <div class="carousel carousel-slider" data-indicators="true">
-                    <div class="carousel-fixed-item center">
-                  
-                    </div>
-                    <div class="carousel-item white-text" href="#one!">
-                      <a href="https://tylermorrisford.github.io/TriviaGame/" target="_blank" rel="noopener">
-                      <h2>Disaster Trivia</h2>
-                      <i class="fas fa-7x fa-exclamation-triangle"></i>
-                      <p class="white-text blurb">a timed quiz game. spoiler: it's difficult</p></a>
-                    </div>
-                    <div class="carousel-item white-text" href="#two!">
-                      <a href="https://tylermorrisford.github.io/Travel-Wizard/" target="_blank" rel="noopener">
-                      <h2>TravelWizard</h2>
-                      <p><i class="fas fa-7x fa-globe-americas"></i></p>
-                      <p class="white-text blurb">group project web app, voted 'most disruptive'</p></a>
-                      
-                    </div>
-                    <div class="carousel-item white-text" href="#three!">
-                      <a href="https://github.com/tylermorrisford/Liri" target="_blank" rel="noopener">
-                      <h2>Node Liri</h2>
-                      <i class="fab fa-7x fa-node"></i>
-                      <p class="white-text blurb">a simple, beautiful cli node app</p></a>
-                      <p>
-                    </div>
-                    <div class="carousel-item white-text" href="#four!">
-                      <a href="https://tylermorrisford.github.io/word-guess/" target="_blank" rel="noopener">
-                      <h2>Star Wars Hangman</h2>
-                      <p><img src="assets/images/death-star128.png" alt="star-wars-rebel-alliance"></p>
-                      <p class="white-text blurb">a hangman game built with vanilla js</p></a>
-                      <p>
-                    </div>
-                  </div>
-                  <div class="container">
-                      <a href="https://github.com/tylermorrisford/" class="btn waves-effect white grey-text darken-text-2" target="_blank" rel="noopener"><i class="fab 2x fa-github"></i> My Repo</a>
-                    </div>  
-            </div>    
-        </div>
-        <a id="backToTop"></a>
+<body>
+  <div class="navbar-fixed">
+    <nav class="transparent z-depth-0">
+      <div class="nav-wrapper">
+        <a href="#top" class="brand-logo"></a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#about">About</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#cv">CV</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-        <div id="cv">
-            <div class="container">
-                <div class="row">
-                    <h4 id="port-text">experience</h4>
-                    <div class="col s12 m4 align">
-                            <i class="large material-icons prefix">code</i>
-                            <p class="bio">I have 7 years of experience with front-end design, handling a wide array of challenges; from movie tickets to fundraising.</p>
-                    </div>
-                    <div class="col s12 m4 align">
-                            <i class="large material-icons prefix">people_outline</i>
-                            <p class="bio">My extensive experience with digital marketing to different audiences has allowed me to better understand how users interact with websites and apps.</p>
-                    </div>
-                    <div class="col s12 m4 align">
-                            <i class="large material-icons prefix">videocam</i>
-                            <p class="bio">A degree in Film Theory has helped me recognize what will grab a user's attention, and what will keep it.</p> 
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col s12 cv align">
-                            <p><a href="assets/images/Tyler_Ford-Resume_Web-Developer.pdf" target="_blank" rel="noopener"><i class="medium material-icons prefix">account_circle</i><br><u>view my cv</u></a></p>
-                    </div>
-                </div>
+    </nav>
+  </div>
+
+  <ul class="sidenav" id="mobile-demo">
+    <li><a href="#about">About</a></li>
+    <li><a href="#portfolio">Portfolio</a></li>
+    <li><a href="#cv">CV</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+
+  <div id="top" style="background-color: black; width: 100%; height: 100%">
+    <div class="callout">
+      <h1>Tyler Ford</h1>
+      <span class="smallout">web developer</span>
+    </div>
+  </div>
+  <div class="spacer" style="background-color: black; width: 100%; height: 91%"></div>
+  <div id="about">
+    <div class="container">
+      <div class="row">
+        <h4 id="port-text" class="align">hi.</h4>
+        <div class="col s12 m5 align">
+          <img class="tyler" src="assets/images/tyler-small.jpg">
+        </div>
+        <div class="col s12 m7">
+          <p class="bio">I'm Tyler, a Full Stack Web Developer with extensive experience in video production,
+            copywriting, and digital marketing, educated at the University of Utah. Skills in HTML, CSS and JavaScript
+            and strengths in meeting deadlines, creativity and teamwork. Oversaw branded redesign of the company
+            website, and created a branded Capital Campaign website and video that has to date raised over 4 million
+            dollars. Excited to approach programming challenges from different angles and collaborate with others to
+            create useful web applications. Positioned well to provide unique perspectives on how end-users interact
+            with websites, software platforms, and emails by leveraging my background in digital marketing.</p>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+  <div id="portfolio">
+    <div class="container">
+      <h4 id="port-text">projects</h4>
+      <div class="row">
+        <div class="carousel carousel-slider" data-indicators="true">
+          <div class="carousel-fixed-item center">
+
+          </div>
+          <div class="carousel-item white-text" href="#one!">
+            <a href="https://tylermorrisford.github.io/TriviaGame/" target="_blank" rel="noopener">
+              <h2>Disaster Trivia</h2>
+              <i class="fas fa-7x fa-exclamation-triangle"></i>
+              <p class="white-text blurb">a timed quiz game. spoiler: it's difficult</p>
+            </a>
+          </div>
+          <div class="carousel-item white-text" href="#two!">
+            <a href="https://tylermorrisford.github.io/Travel-Wizard/" target="_blank" rel="noopener">
+              <h2>TravelWizard</h2>
+              <p><i class="fas fa-7x fa-globe-americas"></i></p>
+              <p class="white-text blurb">group project web app, voted 'most disruptive'</p>
+            </a>
+
+          </div>
+          <div class="carousel-item white-text" href="#three!">
+            <a href="https://github.com/tylermorrisford/Liri" target="_blank" rel="noopener">
+              <h2>Node Liri</h2>
+              <i class="fab fa-7x fa-node"></i>
+              <p class="white-text blurb">a simple, beautiful cli node app</p>
+            </a>
+            <p>
+          </div>
+          <div class="carousel-item white-text" href="#four!">
+            <a href="https://tylermorrisford.github.io/word-guess/" target="_blank" rel="noopener">
+              <h2>Star Wars Hangman</h2>
+              <p><img src="assets/images/death-star128.png" alt="star-wars-rebel-alliance"></p>
+              <p class="white-text blurb">a hangman game built with vanilla js</p>
+            </a>
+            <p>
+          </div>
+        </div>
+        <div class="container">
+          <a href="https://github.com/tylermorrisford/" class="btn waves-effect white grey-text darken-text-2"
+            target="_blank" rel="noopener"><i class="fab 2x fa-github"></i> My Repo</a>
+        </div>
+      </div>
+    </div>
+    <a id="backToTop"></a>
+  </div>
+  <div id="cv">
+    <div class="container">
+      <div class="row">
+        <h4 id="port-text">experience</h4>
+        <div class="col s12 m4 align">
+          <i class="large material-icons prefix">code</i>
+          <p class="bio">I have 7 years of experience with front-end design, handling a wide array of challenges; from
+            movie tickets to fundraising.</p>
+        </div>
+        <div class="col s12 m4 align">
+          <i class="large material-icons prefix">people_outline</i>
+          <p class="bio">My extensive experience with digital marketing to different audiences has allowed me to better
+            understand how users interact with websites and apps.</p>
+        </div>
+        <div class="col s12 m4 align">
+          <i class="large material-icons prefix">videocam</i>
+          <p class="bio">A degree in Film Theory has helped me recognize what will grab a user's attention, and what
+            will keep it.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col s12 cv align">
+          <p><a href="assets/images/Tyler_Ford-Resume_Web-Developer.pdf" target="_blank" rel="noopener"><i
+                class="medium material-icons prefix">account_circle</i><br><u>view my cv</u></a></p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="contact" class="contactMe">
+    <div class="container">
+      <div class="row" id="formTitle">
+        <h4 id="monoton">Contact Me</h4>
+      </div>
+      <div class="row">
+        <form class="col s12">
+          <div class="input-field col s6">
+            <i class="material-icons prefix">account_circle</i>
+            <input id="name" type="text">
+            <label for="name">Name</label>
+          </div>
+          <div class="input-field col s6">
+            <i class="material-icons prefix">email</i>
+            <input id="email" type="email">
+            <label for="email">Email</label>
+          </div>
+
+          <div class="row">
+            <div class="input-field col s12">
+              <i class="material-icons prefix">mode_edit</i>
+              <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
             </div>
           </div>
-            <div id="contact" class="contactMe">
-                <div class="container">    
-                <div class="row" id="formTitle">
-                    <h4 id="monoton">Contact Me</h4>
-                </div>
-                    <div class="row">
-                            <form class="col s12">
-                                  <div class="input-field col s6">
-                                        <i class="material-icons prefix">account_circle</i>
-                                  <input id="name" type="text">
-                                  <label for="name">Name</label>
-                                </div>
-                                <div class="input-field col s6">
-                                 <i class="material-icons prefix">email</i>
-                                  <input id="email" type="email">
-                                  <label for="email">Email</label>
-                                </div>
-                              
-                              <div class="row">
-                                    <div class="input-field col s12">
-                                      <i class="material-icons prefix">mode_edit</i>
-                                      <textarea id="icon_prefix2" class="materialize-textarea"></textarea>
-                                    </div>
-                                </div>
-                                <button class="btn waves-effect cyan darken-3" id="submit" type="submit" name="action">Send
-                                        <i class="material-icons right">send</i>
-                                      </button>
-                            </form>
-                          </div>
-                        
-                </div>
-            </div>
-                <footer class="grey page-footer">
-                    <div class="container">
-                          
-                            <div class="transparent white-text footer-copyright">
-                              <p>© 2019 Tyler Ford</p>
-                              <a class="white-text footlinks" href="https://github.com/tylermorrisford"><i class="fab fa-2x fa-github"></i></a>
-                              <a class="white-text footlinks" href="https://www.linkedin.com/in/tyler-m-ford"><i class="fab fa-2x fa-linkedin-square"></i></a>
-                              <a class="white-text footlinks" href="mailto:tylerford@gmail.com"><i class="fas fa-2x fa-envelope"></i></a>
+          <button class="btn waves-effect cyan darken-3" id="submit" type="submit" name="action">Send
+            <i class="material-icons right">send</i>
+          </button>
+        </form>
+      </div>
 
-                              </div>
-                              
-                            </div>
-                            </footer>
+    </div>
+  </div>
+  <footer class="grey page-footer">
+    <div class="container">
 
+      <div class="transparent white-text footer-copyright">
+        <p>© 2019 Tyler Ford</p>
+        <a class="white-text footlinks" href="https://github.com/tylermorrisford"><i
+            class="fab fa-2x fa-github"></i></a>
+        <a class="white-text footlinks" href="https://www.linkedin.com/in/tyler-m-ford"><i
+            class="fab fa-2x fa-linkedin-square"></i></a>
+        <a class="white-text footlinks" href="mailto:tylerford@gmail.com"><i class="fas fa-2x fa-envelope"></i></a>
 
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script> -->
-    <script type="text/javascript" src="assets/javascript/app.js"></script>
+      </div>
+
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="assets/javascript/app.js"></script>
 </body>
+
 </html>
