@@ -186,7 +186,10 @@ li {
     visibility: visible;
 }
 
+.page-footer .footer-copyright {
+    justify-content: left;
 
+}
 /* #backToTop button */
 
 #backToTop {
