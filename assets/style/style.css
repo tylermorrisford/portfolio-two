@@ -3,9 +3,13 @@ body, html {
     margin: 0;
   }
 
-a, h2, h3, h4, p {
+a, h2, h3, p {
     font-family: 'Roboto', sans-serif;
 }  
+
+h4 {
+    font-family: 'Monoton', cursive;
+}
 
 a {
     color: white;
@@ -130,6 +134,11 @@ li {
 }
 
 #monoton {
+    font-family: 'Monoton', cursive;
+    color: black;
+}
+
+.monoton {
     font-family: 'Monoton', cursive;
     color: black;
 }
