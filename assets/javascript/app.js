@@ -47,7 +47,7 @@
   
   
 
-  // Your web app's Firebase configuration
+  // Firebase configuration
   var firebaseConfig = {
     apiKey: "AIzaSyAgnMMG6ZDe1v51JvNintTXyBMaEfKmxK8",
     authDomain: "portfolio-form-b6f42.firebaseapp.com",
@@ -87,9 +87,9 @@
         $("#email").val("");
         $("#icon_prefix2").val("");
         $("#formTitle").html("<h4>Thanks, I'll be in touch!</h4>").addClass("thanks");
-
+        // feddback for the user on submitting the form
         setTimeout (function(){ 
-            $("#formTitle").html("<h4>Contact Me</h4>").removeClass("thanks"); 
+            $("#formTitle").html("<h4>Contact Me</h4>"); 
         }, 5000);
 
     });
