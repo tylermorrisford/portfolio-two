@@ -84,10 +84,11 @@
         })
     }
         $("#name").val("");
+        var person = $("#name").val("");
         $("#email").val("");
         $("#icon_prefix2").val("");
-        $("#formTitle").html("<h4>Thanks, I'll be in touch!</h4>").addClass("thanks");
-        // feddback for the user on submitting the form
+        $("#formTitle").html("<h4>Thanks " + person + ", I'll be in touch!</h4>").addClass("thanks");
+        // feedback for the user on submitting the form
         setTimeout (function(){ 
             $("#formTitle").html("<h4>Contact Me</h4>").addClass("monoton"); 
         }, 5000);
