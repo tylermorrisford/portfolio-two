@@ -83,14 +83,14 @@
             dateAdded: firebase.database.ServerValue.TIMESTAMP
         })
     }
-        $("#name").val("");
-        var person = $("#name").val("");
-        $("#email").val("");
-        $("#icon_prefix2").val("");
-        $("#formTitle").html("<h4>Thanks " + person + ", I'll be in touch!</h4>").addClass("thanks");
-        // feedback for the user on submitting the form
-        setTimeout (function(){ 
-            $("#formTitle").html("<h4>Contact Me</h4>").addClass("monoton"); 
+    var person = $("#name").val("");
+    $("#formTitle").html("<h4>Thanks  " + name + ",  I'll be in touch!</h4>").addClass("thanks");
+    // feedback for the user on submitting the form
+    setTimeout (function(){ 
+      $("#formTitle").html("<h4>Contact Me</h4>").addClass("monoton"); 
+      $("#name").val("");
+      $("#email").val("");
+      $("#icon_prefix2").val("");
         }, 5000);
 
     });
