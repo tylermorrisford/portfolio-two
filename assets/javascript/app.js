@@ -41,7 +41,9 @@
     $('html, body').animate({scrollTop:0}, '300');
   });
         
-  
+  // let today = new Date();
+  // let year = today.getFullYear();
+  // $('#year').html = year;
     });
 
   
